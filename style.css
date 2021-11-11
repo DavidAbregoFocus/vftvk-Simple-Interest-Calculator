@@ -1,4 +1,59 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color: black;
+    font-family: arial;
+    color: white;
+}
 
+h1 {
+    color: grey;
+    font-family: verdana;
+}
 
+.maindiv {
+    background-color: white;
+    color: black;
+    width: 500px;
+    padding: 20px;
+    border-radius: 25px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#form-div {
+    width: 80%;
+}
+
+.row {
+    margin: 15px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.row > span {
+    display: inline-block;
+    width: 120px;
+}
+
+#range-div {
+    display: inline-flex;
+    align-items: center;
+}
+
+#rate_val {
+    margin-left: 5px;
+}
+
+.highlight {
+    background-color: yellow;
+}
+
+#result {
+    width: auto;
+}
+
+footer {
+    align-self: flex-start;
+}
